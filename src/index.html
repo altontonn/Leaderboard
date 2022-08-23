@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaderboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
 </head>
 <body>
-    
+    <h1>Leaderboard</h1>
+    <section class="content">
+      <div class="recent">
+        <div class="text">
+          <h2>Recent Scores</h2>
+          <button type="submit">Refresh</button>
+        </div>
+        <table class="table">
+          <tbody class="table-body">
+
+          </tbody>
+        </table>
+      </div>
+      <div class="form">
+        <h2>Add your scores</h2>
+        <form>
+          <label for="name"></label>
+          <input type="text" class="input-text" placeholder="your name">
+          <label for="score"></label>
+          <input type="number" class="input-number" placeholder="your score">
+          <button class="formBtn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
 </body>
 </html>
