@@ -15,6 +15,10 @@ h1 {
   height: 27px;
 }
 
+.content button:hover {
+  cursor: pointer;
+}
+
 .recent {
   width: 50%;
   padding: 2rem;
@@ -51,7 +55,8 @@ section .text {
   width: fit-content;
 }
 
-.form form input[type="text"], input[type="number"] {
+.form form input[type="text"],
+input[type="number"] {
   margin-bottom: 1rem;
   border: 3px solid;
   padding: 3px;
@@ -63,14 +68,10 @@ section .text {
   font-weight: bold;
 }
 
-.form button {
+.formBtn {
   width: fit-content;
   margin-left: 8rem;
   box-shadow: 3px 4px black;
   background-color: #fff;
   padding: 3px;
-}
-
-.form button:hover {
-  cursor: pointer;
 }

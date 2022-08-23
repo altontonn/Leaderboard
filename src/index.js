@@ -1,32 +1,7 @@
-import _ from 'lodash';
+// import _ from 'lodash';
 import './style.css';
+import tables from './table.js';
 
-const tables = [
-  {
-    name: 'Name:',
-    score: 100
-  },
-  {
-    name: 'Name:',
-    score: 20,
-  },
-  {
-    name: 'Name:',
-    score: 50,
-  },
-  {
-    name: 'Name:',
-    score: 78,
-  },
-  {
-    name: 'Name:',
-    score: 125,
-  },
-  {
-    name: 'Name:',
-    score: 77,
-  },
-]
 document.querySelector('.table-body').innerHTML = tables.map((table) => (
   `<tr>
     <td>${table.name}</td>
