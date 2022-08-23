@@ -1,0 +1,76 @@
+h1 {
+  font-family: cursive;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  font-family: cursive;
+}
+
+.content button {
+  background-color: #fff;
+  box-shadow: 3px 4px black;
+  padding: 3px;
+  height: 27px;
+}
+
+.recent {
+  width: 50%;
+  padding: 2rem;
+}
+
+section .text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.table {
+  border: 3px solid;
+  width: 40vw;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table td:nth-child(1) {
+  width: 0;
+}
+
+.form {
+  width: 50%;
+  padding: 2rem;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.form form input[type="text"], input[type="number"] {
+  margin-bottom: 1rem;
+  border: 3px solid;
+  padding: 3px;
+}
+
+::placeholder {
+  color: #000;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.form button {
+  width: fit-content;
+  margin-left: 8rem;
+  box-shadow: 3px 4px black;
+  background-color: #fff;
+  padding: 3px;
+}
+
+.form button:hover {
+  cursor: pointer;
+}

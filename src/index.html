@@ -9,16 +9,24 @@
     <h1>Leaderboard</h1>
     <section class="content">
       <div class="recent">
-        <h1>Recent Scores</h1>
-        <button type="submit">Refresh</button>
+        <div class="text">
+          <h2>Recent Scores</h2>
+          <button type="submit">Refresh</button>
+        </div>
+        <table class="table">
+          <tbody class="table-body">
+
+          </tbody>
+        </table>
       </div>
       <div class="form">
+        <h2>Add your scores</h2>
         <form>
           <label for="name"></label>
-          <input type="text" class="input-text">
+          <input type="text" class="input-text" placeholder="your name">
           <label for="score"></label>
-          <input type="number" class="input-number">
-          <input type="button" value="Submit">
+          <input type="number" class="input-number" placeholder="your score">
+          <button type="submit">Submit</button>
         </form>
       </div>
     </section>
