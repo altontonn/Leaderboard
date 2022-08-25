@@ -7,6 +7,9 @@
 **Additional description about the project and its features.**
 - This is a leaderboard list app that consumes an API that implements the actions behind the refresh and submit.
 
+## Linter for html
+-[Webhint](https://github.com/microverseinc/linters-config/tree/master/html-css)
+
 ## Linter for html&css (Stylelint)
 -[Stylelint](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
@@ -27,14 +30,14 @@
 - open dist/index.html
 
 ## Live Demo
-[not available for now]
+[See Live](https://altontonn.github.io/Leaderboard/)
 
 ## 🧰 Tools
 
 The following tools help make it easier to run this code.
 
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [`Git`]
+- `Git`
 
 ## 🔥 Getting Started
 
@@ -42,7 +45,11 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 [Download the ZIP from this location](https://github.com/altontonn/Leaderboard/archive/refs/heads/main.zip), or run the following [git clone](https://github.com/altontonn/Leaderboard.git) command to clone the files to your machine:
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/altontonn/library.git
+=======
+git https://github.com/altontonn/Leaderboard.git
+>>>>>>> 48169cf50b26a8e3207b84eac370a20831366478
 ```
 
 - Once the files are downloaded or cloned on your machine, open the "Portfolio" folder in [Visual Studio Code(VSCode)](https://code.visualstudio.com/)
