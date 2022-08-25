@@ -1,16 +1,26 @@
+body {
+  background-image: url(../img/wallpapersden.com_black-wall-pattern_2000x1338.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-attachment: fixed;
+}
+
 h1 {
   font-family: cursive;
+  text-align: center;
 }
 
 .content {
   width: 100%;
   display: flex;
   font-family: cursive;
+  justify-content: center;
 }
 
 .content button {
   background-color: #fff;
-  box-shadow: 3px 4px black;
+  box-shadow: 3px 4px 5px #fff;
   padding: 3px;
   height: 27px;
 }
@@ -20,7 +30,6 @@ h1 {
 }
 
 .recent {
-  width: 50%;
   padding: 2rem;
 }
 
@@ -37,7 +46,7 @@ section .text {
 }
 
 .table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .table td:nth-child(1) {
@@ -45,7 +54,6 @@ section .text {
 }
 
 .form {
-  width: 50%;
   padding: 2rem;
 }
 
@@ -53,6 +61,8 @@ section .text {
   display: flex;
   flex-direction: column;
   width: fit-content;
+  border: 3px solid;
+  padding: 3.3rem;
 }
 
 .form form input[type="text"],
@@ -71,7 +81,7 @@ input[type="number"] {
 .formBtn {
   width: fit-content;
   margin-left: 8rem;
-  box-shadow: 3px 4px black;
+  
   background-color: #fff;
   padding: 3px;
 }
