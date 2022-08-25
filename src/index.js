@@ -11,32 +11,32 @@ const refreshButton = document.querySelector('.refresh');
 const clearField = () => {
   name.value = '';
   score.value = '';
-}
+};
 
 formButton.addEventListener('click', (e) => {
   e.preventDefault();
   addFields(name, score);
   clearField();
-})
-
-refreshButton.addEventListener('click', () => {
-  tBody.innerHTML = '';
-  insertItem();
-})
+});
 
 const addList = (data) => {
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 0; i < data.length; i += 1) {
     const item = `<td>${data[i].user}</td><td>${data[i].score}</td>`;
     tBody.innerHTML += item;
   }
-}
+};
 
 const insertItem = async () => {
   const getResults = await getData();
   addList(getResults);
-}
+};
+
+refreshButton.addEventListener('click', () => {
+  tBody.innerHTML = '';
+  insertItem();
+});
 
 window.addEventListener('load', () => {
   tBody.innerHTML = '';
   insertItem();
-})
+});
