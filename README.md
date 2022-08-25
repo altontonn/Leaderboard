@@ -39,10 +39,10 @@ The following tools help make it easier to run this code.
 ## 🔥 Getting Started
 
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-[Download the ZIP from this location](https://github.com/altontonn/Leaderboard/archive/refs/heads/main.zip), or run the following [git](https://github.com/altontonn/Leaderboard.git) command to clone the files to your machine:
+[Download the ZIP from this location](https://github.com/altontonn/Leaderboard/archive/refs/heads/main.zip), or run the following [git clone](https://github.com/altontonn/Leaderboard.git) command to clone the files to your machine:
 
 ```bash
-git https://github.com/altontonn/library.git
+git clone https://github.com/altontonn/library.git
 ```
 
 - Once the files are downloaded or cloned on your machine, open the "Portfolio" folder in [Visual Studio Code(VSCode)](https://code.visualstudio.com/)
