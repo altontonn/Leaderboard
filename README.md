@@ -8,10 +8,10 @@
 - This is a leaderboard list app that consumes an API that implements the actions behind the refresh and submit.
 
 ## Linter for html&css (Stylelint)
--https://github.com/microverseinc/linters-config/tree/master/html-css
+-[Stylelint](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
 ## linter for html&css + javascript (ESlint)
--https://github.com/microverseinc/linters-config/tree/master/html-css-js
+-[ESlint](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ## ⚒️ Built With
 
@@ -27,13 +27,14 @@
 - open dist/index.html
 
 ## Live Demo
-[not availbale for now]
+[not available for now]
 
 ## 🧰 Tools
 
 The following tools help make it easier to run this code.
 
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [`Git`]
 
 ## 🔥 Getting Started
 
