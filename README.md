@@ -2,6 +2,8 @@
 
 # Leaderboard
 
+<img src="img/leaderBd.png">
+
 > Leaderboard list app
 
 **Additional description about the project and its features.**
