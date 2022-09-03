@@ -17,6 +17,15 @@ h1 {
   justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
 .content button {
   background-color: #fff;
   box-shadow: 3px 4px 5px #fff;
@@ -29,7 +38,7 @@ h1 {
 }
 
 .recent {
-  padding: 2rem;
+  padding-right: 2rem;
 }
 
 section .text {
@@ -50,10 +59,6 @@ section .text {
 
 .table td:nth-child(1) {
   width: 0;
-}
-
-.form {
-  padding: 2rem;
 }
 
 .form form {
