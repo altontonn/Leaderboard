@@ -9,14 +9,14 @@
 **Additional description about the project and its features.**
 - This is a leaderboard list app that consumes an API that implements the actions behind the refresh and submit.
 
-## Linter for html
--[Webhint](https://github.com/microverseinc/linters-config/tree/master/html-css)
+## HTML Linters
+- [Webhint](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
-## Linter for html&css (Stylelint)
--[Stylelint](https://github.com/microverseinc/linters-config/tree/master/html-css)
+## CSS Linters
+- [Stylelint](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
-## linter for html&css + javascript (ESlint)
--[ESlint](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
+## JS Linters
+- [ESlint](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ## ⚒️ Built With
 
